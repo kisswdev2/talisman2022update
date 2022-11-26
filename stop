@@ -1,0 +1,16 @@
+#!/bin/sh
+killall login_server
+sleep 3
+killall game_server
+sleep 3
+killall db_server
+sleep 3
+cd /game/db
+rm -f *.pid *.txt
+sleep 2
+cd /game/login
+rm -f *.pid *.txt
+sleep 2
+cd /game/game
+rm -f *.pid *.txt 
+sleep 2
