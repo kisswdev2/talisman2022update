@@ -62,7 +62,7 @@ download files from here :
 
 sudo apt-get install git -y
 
-git clone https://github.com/kisswdev/Talisman-up.git
+git clone https://github.com/kisswdev2/talisman2022update.git
 
 cd Talisman-up && mv * ../
 
